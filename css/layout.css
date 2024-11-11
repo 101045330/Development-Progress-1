@@ -1,0 +1,17 @@
+.fRow{
+    display:flex;
+    flex-direction:row;
+}
+.fCol{
+    display:flex;
+    flex-direction:column;
+}
+.fJstart{
+    justify-content: flex-start;
+}
+
+header{
+    display:grid;
+    gap:1em;
+    grid-template-columns: 1fr 5fr;
+}
